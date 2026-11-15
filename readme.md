@@ -27,6 +27,7 @@ This project transforms raw e-commerce data into meaningful business insights th
 - DAX
 - Brazilian Olist E-Commerce Dataset
 
+
 **5. Dashboard Overview**
 
 **Page 1: Sales Performance**
@@ -80,7 +81,22 @@ This project transforms raw e-commerce data into meaningful business insights th
 
 This project demonstrates the use of Power BI to transform e-commerce data into interactive dashboards and actionable business insights.
 
-POWER BI DASHBOARD
+**Data Cleaning and Preparation**
+
+Data cleaning and preparation were performed using Power Query in Power BI.
+
+The following steps were completed:
+
+- Imported the Olist e-commerce datasets into Power BI.
+- Verified and corrected column data types, including dates, numbers, and text.
+- Checked missing values in important columns.
+- Preserved legitimate null values in delivery-related date columns where orders had not been delivered.
+- Checked duplicate records in key columns.
+- Validated composite keys in order items and payment datasets.
+- Created a cleaned geolocation reference table by removing duplicate records while preserving the original table.
+- Reviewed product and review data to ensure valid records were not incorrectly removed.
+- Applied and loaded the cleaned datasets into Power BI for data modelling and analysis.
+**POWER BI DASHBOARD**
 
 Download the Power Bi dashboard from [Github Releases](https://github.com/kpriyadharshini0102-eng/olist-ecommerce-sales-analytics/releases/tag/v1.0) section.
 

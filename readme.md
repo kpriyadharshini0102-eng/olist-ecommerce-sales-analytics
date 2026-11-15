@@ -20,6 +20,60 @@ This project transforms raw e-commerce data into meaningful business insights th
 6. How satisfied are customers based on review scores?
 7. How does performance vary by year, product category, and customer state?
 
+**Data Cleaning and Preparation**
+
+Data cleaning and preparation were performed using Power Query in Power BI.
+
+The following steps were completed:
+
+- Imported the Olist e-commerce datasets into Power BI.
+- Verified and corrected column data types, including dates, numbers, and text.
+- Checked missing values in important columns.
+- Preserved legitimate null values in delivery-related date columns where orders had not been delivered.
+- Checked duplicate records in key columns.
+- Validated composite keys in order items and payment datasets.
+- Created a cleaned geolocation reference table by removing duplicate records while preserving the original table.
+- Reviewed product and review data to ensure valid records were not incorrectly removed.
+- Applied and loaded the cleaned datasets into Power BI for data modelling and analysis.
+
+**Data Model and Relationships**
+
+A relational data model was created in Power BI to connect the different e-commerce datasets and support accurate analysis.
+
+The data model includes the following relationships:
+
+- Customers → Orders
+- Orders → Order Items
+- Orders → Payments
+- Orders → Reviews
+- Products → Order Items
+- Sellers → Order Items
+- Product Category Translation → Products
+
+The relationships were configured using the appropriate key columns and cardinality to enable filtering and analysis across the datasets.
+
+The model supports analysis of sales performance, customer behaviour, product categories, payment methods, reviews, and delivery performance.
+
+## DAX Measures
+
+The following DAX measures were created to calculate key business metrics and support dashboard analysis:
+
+| Measure | Purpose |
+|---|---|
+| Total Revenue | Calculates total product sales revenue |
+| Total Orders | Counts distinct orders |
+| Total Customers | Counts unique customers |
+| Average Order Value | Calculates average revenue per order |
+| Monthly Revenue | Tracks revenue trends over time |
+| Total Payment Value | Calculates total recorded payment value |
+| Average Delivery Days | Measures average delivery time for completed orders |
+| Average Review Score | Calculates average customer review rating |
+| Review Count | Counts customer reviews |
+
+These measures help monitor business performance and identify trends in sales, customer satisfaction, and delivery efficiency.
+
+**Note:** Total Revenue is calculated using product item prices and excludes freight charges. It represents sales value, not profit.
+
 **4. Tools Used**
 
 - Microsoft Power BI
@@ -81,59 +135,6 @@ This project transforms raw e-commerce data into meaningful business insights th
 
 This project demonstrates the use of Power BI to transform e-commerce data into interactive dashboards and actionable business insights.
 
-**Data Cleaning and Preparation**
-
-Data cleaning and preparation were performed using Power Query in Power BI.
-
-The following steps were completed:
-
-- Imported the Olist e-commerce datasets into Power BI.
-- Verified and corrected column data types, including dates, numbers, and text.
-- Checked missing values in important columns.
-- Preserved legitimate null values in delivery-related date columns where orders had not been delivered.
-- Checked duplicate records in key columns.
-- Validated composite keys in order items and payment datasets.
-- Created a cleaned geolocation reference table by removing duplicate records while preserving the original table.
-- Reviewed product and review data to ensure valid records were not incorrectly removed.
-- Applied and loaded the cleaned datasets into Power BI for data modelling and analysis.
-
-**Data Model and Relationships**
-
-A relational data model was created in Power BI to connect the different e-commerce datasets and support accurate analysis.
-
-The data model includes the following relationships:
-
-- Customers → Orders
-- Orders → Order Items
-- Orders → Payments
-- Orders → Reviews
-- Products → Order Items
-- Sellers → Order Items
-- Product Category Translation → Products
-
-The relationships were configured using the appropriate key columns and cardinality to enable filtering and analysis across the datasets.
-
-The model supports analysis of sales performance, customer behaviour, product categories, payment methods, reviews, and delivery performance.
-
-## DAX Measures
-
-The following DAX measures were created to calculate key business metrics and support dashboard analysis:
-
-| Measure | Purpose |
-|---|---|
-| Total Revenue | Calculates total product sales revenue |
-| Total Orders | Counts distinct orders |
-| Total Customers | Counts unique customers |
-| Average Order Value | Calculates average revenue per order |
-| Monthly Revenue | Tracks revenue trends over time |
-| Total Payment Value | Calculates total recorded payment value |
-| Average Delivery Days | Measures average delivery time for completed orders |
-| Average Review Score | Calculates average customer review rating |
-| Review Count | Counts customer reviews |
-
-These measures help monitor business performance and identify trends in sales, customer satisfaction, and delivery efficiency.
-
-**Note:** Total Revenue is calculated using product item prices and excludes freight charges. It represents sales value, not profit.
 **POWER BI DASHBOARD**
 
 Download the Power Bi dashboard from [Github Releases](https://github.com/kpriyadharshini0102-eng/olist-ecommerce-sales-analytics/releases/tag/v1.0) section.

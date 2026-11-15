@@ -79,3 +79,11 @@ This project transforms raw e-commerce data into meaningful business insights th
 **8. Conclusion**
 
 This project demonstrates the use of Power BI to transform e-commerce data into interactive dashboards and actionable business insights.
+
+POWER BI DASHBOARD
+
+Download the Power Bi dashboard from [Github Releases](https://github.com/kpriyadharshini0102-eng/olist-ecommerce-sales-analytics/releases/tag/v1.0) section.
+
+The dashboard contain two pages:
+ -- Sales Performance
+ -- Customer & Delivery Analysis

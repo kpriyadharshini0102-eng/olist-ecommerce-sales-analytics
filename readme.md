@@ -1,16 +1,16 @@
-Olist E-Commerce Sales & Customer Analytics
+**Olist E-Commerce Sales & Customer Analytics**
 
-1. Project Overview
+**1. Project Overview**
 
 This project analyzes the Brazilian Olist E-Commerce dataset using Microsoft Power BI to understand sales performance, customer behaviour, payment preferences, and delivery efficiency.
 
-2. Business Problem Statement
+**2. Business Problem Statement**
 
 E-commerce businesses generate large volumes of transactional data. Without proper analysis, it is difficult to monitor sales performance, understand customer behaviour, and identify delivery issues.
 
 This project transforms raw e-commerce data into meaningful business insights through interactive Power BI dashboards.
 
-3. Business Questions
+**3. Business Questions**
 
 1. What is the total revenue and number of orders?
 2. How does revenue change monthly?
@@ -20,16 +20,16 @@ This project transforms raw e-commerce data into meaningful business insights th
 6. How satisfied are customers based on review scores?
 7. How does performance vary by year, product category, and customer state?
 
-4. Tools Used
+**4. Tools Used**
 
 - Microsoft Power BI
 - Power Query
 - DAX
 - Brazilian Olist E-Commerce Dataset
 
-5. Dashboard Overview
+**5. Dashboard Overview**
 
-Page 1: Sales Performance
+**Page 1: Sales Performance**
 - Total Revenue
 - Total Orders
 - Total Customers
@@ -38,37 +38,37 @@ Page 1: Sales Performance
 - Revenue by Product Category
 - Payment Method Distribution
 
-Page 2: Customer & Delivery Analysis
+**Page 2: Customer & Delivery Analysis**
 - Average Review Score
 - Customer Review Score Distribution
 - Monthly Average Delivery Time
 - Customer State Filter
 
-6. Key Business Insights
+**6. Key Business Insights**
 
-1. Revenue Performance: The business generated total revenue of R$13.59 million across 99,441 orders.
+ 1. Revenue Performance: The business generated total revenue of R$13.59 million across 99,441 orders.
 
-2. Average Order Value: The average order value was R$136.68, indicating the average item-price revenue per order.
+ 2. Average Order Value: The average order value was R$136.68, indicating the average item-price revenue per order.
 
-3. Customer Base: The analysis identified 96,096 unique customers, providing a broad customer base for the e-commerce business.
+ 3. Customer Base: The analysis identified 96,096 unique customers, providing a broad customer base for the e-commerce business.
 
-4. Customer Satisfaction: The average review score was 4.09 out of 5. The majority of reviews received 5 stars (57,328 reviews), indicating generally positive customer feedback.
+ 4. Customer Satisfaction: The average review score was 4.09 out of 5. The majority of reviews received 5 stars (57,328 reviews), indicating generally positive customer feedback.
 
-5. Review Distribution: There were 19,142 four-star reviews and 11,424 one-star reviews. These lower ratings provide opportunities to investigate customer dissatisfaction.
+ 5. Review Distribution: There were 19,142 four-star reviews and 11,424 one-star reviews. These lower ratings provide opportunities to investigate customer dissatisfaction.
 
-6. Product Category Performance: Revenue varied across product categories, with clear differences between the highest- and lower-revenue categories.
+ 6. Product Category Performance: Revenue varied across product categories, with clear differences between the highest- and lower-revenue categories.
 
-7. Payment Preferences: Credit card payments represented the largest share of payment value in the dashboard.
+ 7. Payment Preferences: Credit card payments represented the largest share of payment value in the dashboard.
 
-8. Revenue Trends: Monthly revenue analysis highlights changes in sales performance over the dataset period.
+ 8. Revenue Trends: Monthly revenue analysis highlights changes in sales performance over the dataset period.
 
-7. Business Recommendations
+**7. Business Recommendations**
 
-1. Improve Customer Experience: Investigate one-star and two-star reviews to identify recurring complaints and improve customer satisfaction.
+ 1. Improve Customer Experience: Investigate one-star and two-star reviews to identify recurring complaints and improve customer satisfaction.
 
-2. Increase Average Order Value: Consider product bundles, cross-selling, and targeted promotions to encourage customers to purchase additional products.
+ 2. Increase Average Order Value: Consider product bundles, cross-selling, and targeted promotions to encourage customers to purchase additional products.
 
-3. Optimize Product Category Performance: Focus marketing and inventory planning on high-revenue product categories while investigating opportunities to improve lower-performing categories.
+ 3. Optimize Product Category Performance: Focus marketing and inventory planning on high-revenue product categories while investigating opportunities to improve lower-performing categories.
 
 4. Improve Delivery Efficiency: Investigate months with longer average delivery times and identify potential logistics bottlenecks.
 
@@ -76,6 +76,6 @@ Page 2: Customer & Delivery Analysis
 
 6. Monitor Monthly Revenue: Track monthly sales trends and plan promotional campaigns during weaker sales periods.
 
-8. Conclusion
+**8. Conclusion**
 
 This project demonstrates the use of Power BI to transform e-commerce data into interactive dashboards and actionable business insights.

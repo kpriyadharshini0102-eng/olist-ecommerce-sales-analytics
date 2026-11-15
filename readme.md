@@ -20,7 +20,7 @@ This project transforms raw e-commerce data into meaningful business insights th
 6. How satisfied are customers based on review scores?
 7. How does performance vary by year, product category, and customer state?
 
-**Data Cleaning and Preparation**
+**4.Data Cleaning and Preparation**
 
 Data cleaning and preparation were performed using Power Query in Power BI.
 
@@ -36,7 +36,7 @@ The following steps were completed:
 - Reviewed product and review data to ensure valid records were not incorrectly removed.
 - Applied and loaded the cleaned datasets into Power BI for data modelling and analysis.
 
-**Data Model and Relationships**
+**5.Data Model and Relationships**
 
 A relational data model was created in Power BI to connect the different e-commerce datasets and support accurate analysis.
 
@@ -54,7 +54,7 @@ The relationships were configured using the appropriate key columns and cardinal
 
 The model supports analysis of sales performance, customer behaviour, product categories, payment methods, reviews, and delivery performance.
 
-## DAX Measures
+## 6.DAX Measures
 
 The following DAX measures were created to calculate key business metrics and support dashboard analysis:
 
@@ -74,7 +74,7 @@ These measures help monitor business performance and identify trends in sales, c
 
 **Note:** Total Revenue is calculated using product item prices and excludes freight charges. It represents sales value, not profit.
 
-**4. Tools Used**
+**7. Tools Used**
 
 - Microsoft Power BI
 - Power Query
@@ -82,7 +82,7 @@ These measures help monitor business performance and identify trends in sales, c
 - Brazilian Olist E-Commerce Dataset
 
 
-**5. Dashboard Overview**
+**8. Dashboard Overview**
 
 **Page 1: Sales Performance**
 - Total Revenue
@@ -99,7 +99,7 @@ These measures help monitor business performance and identify trends in sales, c
 - Monthly Average Delivery Time
 - Customer State Filter
 
-**6. Key Business Insights**
+**9. Key Business Insights**
 
  1. Revenue Performance: The business generated total revenue of R$13.59 million across 99,441 orders.
 
@@ -117,7 +117,7 @@ These measures help monitor business performance and identify trends in sales, c
 
  8. Revenue Trends: Monthly revenue analysis highlights changes in sales performance over the dataset period.
 
-**7. Business Recommendations**
+**10. Business Recommendations**
 
  1. Improve Customer Experience: Investigate one-star and two-star reviews to identify recurring complaints and improve customer satisfaction.
 
@@ -131,7 +131,7 @@ These measures help monitor business performance and identify trends in sales, c
 
 6. Monitor Monthly Revenue: Track monthly sales trends and plan promotional campaigns during weaker sales periods.
 
-**8. Conclusion**
+**11. Conclusion**
 
 This project demonstrates the use of Power BI to transform e-commerce data into interactive dashboards and actionable business insights.
 
